@@ -1,10 +1,11 @@
-[theme]
+[color-theme]
 name = "Aleph"
+color-preference = "dark"
 
 [ui]
 drop-shadow-width = 4
 
-[theme.base]
+[color-theme.base]
 white = "#ABB2BF"
 black = "#282C34"
 grey = "#3E4451"
@@ -18,7 +19,7 @@ purple = "#C678DD"
 cyan = "#56b6c2"
 magenta = "#C678DD"
 
-[theme.ui]
+[color-theme.ui]
 "lapce.active_tab" = "#141417"
 "lapce.inactive_tab" = "#101012"
 "lapce.error" = "$red"
