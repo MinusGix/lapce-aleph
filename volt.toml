@@ -3,4 +3,6 @@ display-name = "Aleph"
 description = "Dark and colorful theme"
 version = "0.3.0"
 author = "MinusGix"
+repository = "https://github.com/MinusGix/lapce-aleph"
 color-themes = ["aleph.toml"]
+icon = "aleph.png"
