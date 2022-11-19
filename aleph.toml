@@ -20,13 +20,90 @@ cyan = "#56b6c2"
 magenta = "#C678DD"
 
 [color-theme.ui]
-"lapce.active_tab" = "#141417"
-"lapce.inactive_tab" = "#101012"
 "lapce.error" = "$red"
 "lapce.warn" = "$yellow"
 "lapce.dropdown_shadow" = "#000000"
 "lapce.border" = "#aaaaaa"
 "lapce.scroll_bar" = "#aaaaaa40"
+
+"lapce.button.primary.background" = "#50a14f" # TODO
+"lapce.button.primary.foreground" = "$black" # TODO
+
+# tab
+"lapce.tab.active.background" = "#141417"
+"lapce.tab.active.foreground" = "$white" # TODO
+"lapce.tab.active.underline" = "#528BFF" # TODO
+
+"lapce.tab.inactive.background" = "#101012"
+"lapce.tab.inactive.foreground" = "$white" # TODO
+"lapce.tab.inactive.underline" = "#528BFF77" # TODO
+
+"lapce.tab.separator" = "" # TODO?
+
+"lapce.icon.active" = "$green"
+"lapce.icon.inactive" = "$green" # TODO: faded green?
+
+"lapce.remote.local" = "#4078F2" # TODO
+"lapce.remote.connected" = "#50A14F" # TODO
+"lapce.remote.connecting" = "#C18401" # TODO
+"lapce.remote.disconnected" = "#E45649" # TODO
+
+"lapce.plugin.name" = "#DDDDDD" # TODO
+"lapce.plugin.description" = "$white" # TODO
+"lapce.plugin.author" = "#B0B0B0" # TODO
+
+"editor.background" = "#141417"
+"editor.foreground" = "#eeeeee"
+"editor.dim" = "#20AA20"
+"editor.focus" = "#CCCCCC"
+"editor.caret" = "#528bff"
+"editor.selection" = "#aaaaaa25"
+"editor.current_line" = "#aaaaaa0c"
+"editor.link" = "$cyan"
+"editor.visible_whitespace" = "$grey" # TODO
+"editor.indent_guide" = "$grey" # TODO
+"editor.drag_drop_background" = "#79c1fc55" # TODO
+"editor.drag_drop_tab_background" = "#0b0e1455" # TODO
+
+"inlay_hint.foreground" = "#6E7177" # TODO?
+"inlay_hint.background" = "#00000000"
+
+"error_lens.error.foreground" = "$red" # TODO
+"error_lens.error.background" = "#E06C7520" # TODO
+"error_lens.warning.foreground" = "$yellow" # TODO
+"error_lens.warning.background" = "#E5C07B20" # TODO
+"error_lens.other.foreground" = "#5C6370" # TODO
+"error_lens.other.background" = "#5C637020" # TODO
+
+"source_control.added" = "#50a14f32" # TODO
+"source_control.removed" = "#ff526632" # TODO
+"source_control.modified" = "#0184bc32" # TODO
+
+"palette.current.background" = "#2C313A"
+"palette.current.foreground" = "$white" # TODO?
+"palette.background" = "#21252B"
+"palette.foreground" = "$white" # TODO?
+
+"completion.background" = "#21252B"
+"completion.current" = "#2C313A"
+
+"hover.background" = "#21252B"
+
+"activity.background" = "$black"
+"activity.current" = "#21252B"
+
+"panel.background" = "#141417"
+"panel.current" = "#262626"
+"panel.hovered" = "#4C4C4C"
+
+"status.background" = "#21252B"
+"status.foreground" = "$white" # TODO?
+"status.modal.normal" = "$blue"
+"status.modal.insert" = "$red"
+"status.modal.visual" = "$yellow"
+"status.modal.terminal" = "$purple"
+
+"markdown.blockquote" = "#898989"
 
 # Typically harser colors. Note that some colors are not actually their name's color
 # but for the most part they are
@@ -50,75 +127,43 @@ magenta = "#C678DD"
 "terminal.bright_magenta" = "#e66dff"
 "terminal.bright_black" = "#28a9ff"
 
-"editor.background" = "#141417"
-"editor.foreground" = "#eeeeee"
-"editor.dim" = "#20AA20"
-"editor.focus" = "#CCCCCC"
-"editor.caret" = "#528bff"
-"editor.selection" = "#aaaaaa25"
-"editor.current_line" = "#aaaaaa0c"
-"editor.link" = "$cyan"
-
-"inlay_hint.foreground" = "#6E7177"
-
-"source_control.added" = "#50a14f32"
-"source_control.removed" = "#ff526632"
-"source_control.modified" = "#0184bc32"
-
-"palette.background" = "#21252B"
-"palette.current" = "#2C313A"
-
-"completion.background" = "#21252B"
-"completion.current" = "#2C313A"
-
-"hover.background" = "#21252B"
-
-"activity.background" = "$black"
-"activity.current" = "#21252B"
-
-"panel.background" = "#141417"
-"panel.current" = "#262626"
-"panel.hovered" = "#4C4C4C"
-
-"status.background" = "#21252B"
-"status.modal.normal" = "$blue"
-"status.modal.insert" = "$red"
-"status.modal.visual" = "$yellow"
-"status.modal.terminal" = "$purple"
-
-"markdown.blockquote" = "#898989"
-
-[theme.syntax]
-"comment" = "#5C6370"
-
+[color-theme.syntax]
+"comment" = "#5C6370" # TODO?
 "constant" = "#D62C2C"
 "type" = "#A95EFF"
 "typeAlias" = "#b079ee"
 "number" = "$yellow"
 "enum" = "#9263D3"
-"enumMember" = "#AA63D3"
 "struct" = "#A95EFF"
 "structure" = "#A95EFF"
+"interface" = "#DD46C2"
 "attribute" = "$orange"
 "constructor" = "$yellow"
-"variable" = "#FF478D"
-"macro" = "#28A9FF"
-"operator" = "#EEEEEE60"
-"variable.parameter" = "#FF478D"
-"selfKeyword" = "#14E5D4"
-"property" = "#FF7135"
-"interface" = "#DD46C2"
 "function" = "$blue"
 "method" = "#28A9FF"
 "function.method" = "$blue"
 "keyword" = "#14E5D4"
+"selfKeyword" = "#14E5D4"
 "field" = "$red"
+"property" = "#FF7135"
+"enumMember" = "#AA63D3"
 "enum-member" = "$red"
-# "style.variable.other.member" = "$red"
-
 "string" = "$green"
-
 "type.builtin" = "$cyan"
 "builtinType" = "$cyan"
 "escape" = "$cyan"
 "embedded" = "$cyan"
+"punctuation.delimiter" = "$yellow" # TODO
+"text.title" = "$orange" # TODO
+"text.uri" = "$cyan" # TODO
+"text.reference" = "$yellow" # TODO
+"variable" = "#FF478D"
+"variable.other.member" = "$green"
+"tag" = "$blue" # TODO?
+
+# "macro" = "#28A9FF"
+# "operator" = "#EEEEEE60"
+# "variable.parameter" = "#FF478D"
+# "style.variable.other.member" = "$red"
+
+
