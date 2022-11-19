@@ -1,7 +1,7 @@
 name = "aleph"
 display-name = "Aleph"
 description = "Dark and colorful theme"
-version = "0.3.0"
+version = "0.3.1"
 author = "MinusGix"
 repository = "https://github.com/MinusGix/lapce-aleph"
 color-themes = ["aleph.toml"]
